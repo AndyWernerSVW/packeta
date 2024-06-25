@@ -43,7 +43,7 @@ def margin_pool_chart(margin_pool_data):
 
 
     # Use Roboto font
-    plt.rcParams['font.family'] = 'Arial'
+    plt.rcParams['font.family'] = 'DejaVu Sans'
 
     # Create figure and axis
     fig, ax = plt.subplots(figsize = (12,6))
