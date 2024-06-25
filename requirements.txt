@@ -2,9 +2,9 @@ matplotlib==3.7.1
 numpy==1.24.3
 pandas==2.0.1
 Pillow==10.3.0
-protobuf==5.27.1
+protobuf
 Requests==2.32.3
 selenium==4.22.0
-streamlit==1.36.0
+streamlit
 webdriver_manager==4.0.1
-google-ai-generativelanguage ==0.6.5
+google-ai-generativelanguage
