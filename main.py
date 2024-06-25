@@ -30,5 +30,5 @@ with st.expander("Notes"):
 st.subheader("Key Values and Benchmarking")
 kv.key_ratios()
 
-st.title('Delivery option Scraper and Analyzer')
+st.header('Delivery option Scraper and Analyzer')
 sg.scraper()
