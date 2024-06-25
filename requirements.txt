@@ -8,3 +8,4 @@ selenium==4.22.0
 streamlit
 webdriver_manager==4.0.1
 google-ai-generativelanguage
+google.generativeai
