@@ -40,7 +40,9 @@ def gemini_chat(chat,prompt):
           return response
     except genai_errors.StopCandidateException as e:
         print(e)
-        st.error(f"""Gemini returned and error: {e}""")
+        st.error(f"""Gemini returned and error, because it does not like the content of the site. 
+                 sending the request again usually helps
+                  {e}""")
         sys.exit()
         
 
